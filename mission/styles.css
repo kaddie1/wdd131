@@ -1,0 +1,49 @@
+/* I have used chatgpt to assist me with my coding. Chat gpt has helped me a lot. 
+I also got help from https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing, https://developer.mozilla.org/en-US/docs/Web/CSS/line-height*/ 
+
+.byuibox{
+    
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 100px;  
+    border: 1px solid #ccc; 
+
+}
+
+h1{
+    text-align: center; 
+    letter-spacing: 0.1em;
+    
+}
+
+h4{
+    text-align: center; 
+    letter-spacing: 0.09em;
+    color:#006EB6;
+    border-bottom: 1px solid grey;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height : 1.5;
+}
+
+
+.first{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.university{
+    text-align: left;
+    font-style: italic;
+}
+
+footer img {
+    display: block; 
+    margin: 0 auto; 
+    width: 150px; 
+    height: auto; 
+    padding-top: 20px;
+}
