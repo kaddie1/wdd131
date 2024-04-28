@@ -1,0 +1,23 @@
+
+/* I have used chatgpt to assist me and class material with the following codes. Majority of the code is from chatgpt */
+
+body {
+    text-align: center;
+  }
+
+  h2 {
+    color: red;
+}
+
+img {
+    border: 2px solid red;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+}
+
+p {
+    text-align: center; 
+}
