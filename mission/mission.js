@@ -1,7 +1,7 @@
 
 /* I got help from the code in class */
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const selectElement = document.getElementById('theme');
 
     selectElement.addEventListener('change', function () {
@@ -11,8 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.classList.add('dark');
         } /* end if*/
 
-        else
-        {
+        else{
             document.body.classList.remove('dark');
             
         }
