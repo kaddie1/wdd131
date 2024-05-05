@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         else{
             document.body.classList.remove('dark');
+            image.src = "byui.jpg";
             
         }
 
