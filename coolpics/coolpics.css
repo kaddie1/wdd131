@@ -1,3 +1,4 @@
+/* --I have used chatgpt to assist me with my coding. --> */
 @import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
 
 
@@ -122,7 +123,7 @@ h3{
 .header_div{
 
 background-color: blueviolet;
-width: 600px;
+width: 100%;
 /* display: none; */
 padding-top: 10px;
 padding-bottom: 10px;
