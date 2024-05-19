@@ -10,17 +10,24 @@
     <meta author element: Kadeen Nelson>
     <title>Cool Pics - part 1</title>
     <meta Link reference to your CSS file>
-    <script src="./coolpics.js"></script>  
+    <script src="./coolpics.js"defer></script>  
     <link rel="stylesheet" href="coolpics.css" />
     
 </head>
 
 
 
+
+    
+
 <body>
 
 
-   
+    <div class="viewer">
+        <button class="close-viewer">X</button>
+        <img src="image.jpeg" alt="alt description">
+    </div>
+    
     <div class ="header_div">
         <header>
 
@@ -41,15 +48,8 @@
    
     </div>
 
-    <div class="viewer">
-        <button class="close-viewer">X</button>
-        <img src="norris-sm.jpeg" alt="alt description">
-    </div>
   
     <main>
-
-      
-        
  
         <p class="first"> Current Work </p>
 
@@ -58,8 +58,8 @@
         <img id = "test" src=""> -->
 
         <div class = "gallery" >
-          
-       
+            <!-- <div class="image-container"> -->
+        <!-- <figure id = "pictures">   -->
                 <img src="norris-sm.jpeg" alt="picture">
                 <img src="norris-sm.jpeg" alt="picture">
                 <img src="norris-sm.jpeg" alt="picture">
@@ -69,6 +69,8 @@
                 <img src="norris-sm.jpeg" alt="picture">
                 <img src="norris-sm.jpeg" alt="picture">
                 <img src="norris-sm.jpeg" alt="picture">
+        
+            <!-- </div> -->
 
 
         </div>

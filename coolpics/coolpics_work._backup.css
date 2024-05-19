@@ -18,8 +18,6 @@ h1{
  color: white;
  text-align: center;
  font-family: 'Mooli';
- font-size: 50px;
- 
 
 
 }
@@ -29,8 +27,6 @@ h3{
     text-align: center;
     font-family: 'Mooli';
     display:block;
-    font-size: 35px;
- 
    
    }
 
@@ -123,49 +119,19 @@ footer{
     right:0;
 
     background-color: rgba(0, 0, 0, 0.75) ;
+
+    
     position: fixed;
+      
     
-    
-}   */
+} */
 
-.viewer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-    display: grid;
-     place-items: center; 
-  }
-
-
-.close-viewer {
-    position: absolute;
-    grid-row: 2; /* Placing the close button in the first row */
-    color:black; /* Change font color for visibility */
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    border: 2px solid red;
-  }
-
-.viewer img {
-    grid-row: 2; /* Placing the image in the second row */
-    max-height: 95%; /* Set max-height of the image to 100% */
-    max-width: 95%; /* Ensure image doesn't exceed viewport width */
-   
-    
-  } 
-/* 
-.close-viewer {
+/* .close-viewer {
     color: black; 
     background-color: white; 
     border: 2px solid red; 
-  
     
-}  */
-
-
+} */
 
 .hide.show-menu {
     display: block; /* Show the menu when button is clicked */
@@ -186,7 +152,7 @@ body{
 a {
     text-decoration: underline;
     text-align: center;
-    padding-left: 250px;
+    padding-left: 150px;
   }
 
 
@@ -276,36 +242,5 @@ footer{
     padding-bottom: 1px;
     color: white;
 }
-
-.viewer {
-    position:fixed;
-    top: 100;
-    left: 100;
-    bottom: 100;
-    right: 100;
-    background-color: rgba(0, 0, 0, 0.75);
-    display: grid;
-    place-items: center;   
-     padding: 50px; 
-     
-  }
-
-
-  .close-viewer {
-    position: absolute;
-    grid-row: 1; /*Placing the close button in the first row */
-    color:black; /* Change font color for visibility */
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    border: 2px solid red;
-  }
-
-.viewer img {
-    grid-row: 2; /* Placing the image in the second row */
-    max-height: 100%; /* Set max-height of the image to 100% */
-    max-width: 100%; /* Ensure image doesn't exceed viewport width */
-   
-    
-  } 
 
 }
