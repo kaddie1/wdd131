@@ -5,6 +5,7 @@
 body{
 
     font-family: Arial, Helvetica, sans-serif;
+    margin:0;
 }
 
 a {
@@ -39,15 +40,16 @@ h3{
 	display: none;
 }
 
+/* nav{
+display: flex;
+
+}  */
 
 
 .header_div{
-
-background-color: blueviolet;
-width: 100%;
-
-
-}
+    background-color: blueviolet;
+    width: 100%;
+    }
 
 .header_div a{
     color:white;
@@ -186,7 +188,7 @@ body{
 a {
     text-decoration: underline;
     text-align: center;
-    padding-left: 250px;
+    padding-left: 200px;
   }
 
 

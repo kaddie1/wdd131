@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function handleResize() {
     var windowWidth = window.innerWidth;
-    var menu = document.querySelector(".hide");
+    var menu = document.querySelector("#hide");
   
     if (windowWidth > 1000) {
       menu.classList.remove("hide");
