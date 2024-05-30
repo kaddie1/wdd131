@@ -94,6 +94,7 @@ h1{
   /* Assuming .book-desc should be in the first column */
   grid-column: 1 / 2; /* Starts at the first line and ends before the second line */
   padding: 10px;
+  padding-top: 50px;  
 }
 
 .sec_book {
@@ -105,7 +106,8 @@ h1{
 
 
 .body_grid_container .first_book .title {
-    display: grid;
+  
+  display: grid;
     font-size: 20px;
     color: #AF1B3F;
     font-weight: bold;
@@ -122,6 +124,7 @@ h1{
     color: #AF1B3F;
     font-weight: bold;
     text-align: left;
+    padding-top: 50px;  
     
   }
 
