@@ -1,0 +1,83 @@
+/* I have used chatgpt and co-pilot to assist me with my coding. 
+ My github link https://kaddie1.github.io/wdd131/ */
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+
+
+
+/* Gold color: #EFC69B
+Red color: #AF1B3F
+Dark color: #473144
+Body font: Helvetica, Arial, sans-serif
+Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.) */
+
+body{
+    color: #AF1B3F;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+
+
+}
+
+h1{
+   font-family:  Lora, Impact, serif;
+   color: #473144;
+   text-align: center;
+   
+
+
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* display: inline-block; */
+    /* list-style-type: none; */
+    border-top: 2px solid #EFC69B; /* Add 'solid' and specify border width */
+    border-bottom: 2px solid #EFC69B; /* Add 'solid' and specify border width */
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+.nav a{
+    color: #AF1B3F;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    /* text-align: left; */
+    display: inline-block;
+   
+
+}
+
+
+
+.body_grid_container .first_book .title {
+    font-size: 20px;
+    color: #AF1B3F;
+    font-weight: bold;
+  }
+
+  .body_grid_container .sec_book .title {
+    font-size: 20px;
+    color: #AF1B3F;
+    font-weight: bold;
+  }
+    
+
+/* 
+.body_grid_container .info p {
+    font-size: 30px;
+    color: #473144;
+   
+  } */
+
+p {
+    
+    color: #473144;
+   
+  }
+
+

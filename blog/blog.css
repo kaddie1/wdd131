@@ -1,0 +1,169 @@
+/* I have used chatgpt and co-pilot to assist me with my coding. 
+ My github link https://kaddie1.github.io/wdd131/ */
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+
+body{
+    color: #AF1B3F;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0; 
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+
+
+}
+
+h1{
+   font-family:  Lora, Impact, serif;
+   color: #473144;
+   text-align: center;
+   
+
+
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;      /*repeat(3, 1fr);*/
+    /* display: inline-block; */
+    /* list-style-type: none; */
+    border-top: 2px solid #EFC69B; /* Add 'solid' and specify border width */
+    border-bottom: 2px solid #EFC69B; /* Add 'solid' and specify border width */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold; 
+    max-width: 1400px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the block */
+   
+   
+
+  }
+
+  .nav_section {
+    display: flex;
+    justify-content:space-evenly; /* Distributes space evenly between the nav links */
+    grid-column: 3 / 4; /* Positions the nav in the third column */
+    list-style-type: none; /* Removes list styling if it's an unordered list */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    text-decoration: none !important;
+   
+
+}
+
+.nav_section a {
+ 
+  text-decoration: none !important;  /*remove the underline */
+  font-size: 15px;
+  color: #AF1B3F;
+  margin-right: 5px; /* Adjust the right margin to reduce space between links */
+  
+}
+
+
+.body_grid_container {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr; /* Divides the container into two equal columns */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.book-desc {
+  /* Assuming .book-desc should be in the first column */
+  grid-column: 1 / 2; /* Starts at the first line and ends before the second line */
+  padding: 10px;
+ 
+}
+
+.first_book {
+  /* Assuming .first_book should be in the second column */
+  grid-column: 2 / 3; /* Starts at the second line and ends before the third line */
+  
+  
+}
+
+.first_book img,
+.sec_book img {
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+
+.book-desc_2 {
+  /* Assuming .book-desc should be in the first column */
+  grid-column: 1 / 2; /* Starts at the first line and ends before the second line */
+  padding: 10px;
+}
+
+.sec_book {
+  /* Assuming .first_book should be in the second column */
+  grid-column: 2 / 3; /* Starts at the second line and ends before the third line */
+}
+
+
+
+
+.body_grid_container .first_book .title {
+    display: grid;
+    font-size: 20px;
+    color: #AF1B3F;
+    font-weight: bold;
+    text-align: left;
+    
+    
+  }
+
+
+
+  .body_grid_container .sec_book .title {
+    display: grid;
+    font-size: 20px;
+    color: #AF1B3F;
+    font-weight: bold;
+    text-align: left;
+    
+  }
+
+
+p {
+    
+    color: #473144;
+   
+  }
+
+  .filter {
+    /* Assuming .first_book should be in the second column */
+    grid-column: 3 / 4; /* Starts at the second line and ends before the third line */
+  }
+  
+.filter{
+    /* display: grid; */
+        /* width: 250px;
+        height: 400px;
+        border: 2px solid #EFC69B; */
+        /* padding: 50px; */
+        margin-left: 100px; 
+      }
+
+
+.filter p
+{
+    
+    color:black;
+    padding: 50px;
+    
+}
+
+
+.skiptocontent a {
+    position: absolute;
+    left: -9999px; /* Move off-screen */
+    background-color:white; /* Background color */
+    color: #AF1B3F; /* Text color */
+    padding: 10px; /* Padding for better visibility */
+  }
+  
+.skiptocontent a:focus {
+    left: auto; /* Move back to its default position */
+  }

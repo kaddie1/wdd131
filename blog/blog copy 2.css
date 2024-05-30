@@ -1,0 +1,116 @@
+/* I have used chatgpt and co-pilot to assist me with my coding. 
+ My github link https://kaddie1.github.io/wdd131/ */
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+
+
+
+/* Gold color: #EFC69B
+Red color: #AF1B3F
+Dark color: #473144
+Body font: Helvetica, Arial, sans-serif
+Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.) */
+
+body{
+    color: #AF1B3F;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+
+
+}
+
+h1{
+   font-family:  Lora, Impact, serif;
+   color: #473144;
+   text-align: center;
+   
+
+
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* display: inline-block; */
+    /* list-style-type: none; */
+    border-top: 2px solid #EFC69B; /* Add 'solid' and specify border width */
+    border-bottom: 2px solid #EFC69B; /* Add 'solid' and specify border width */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+
+.nav a{
+    color: #AF1B3F;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: left; 
+    display: inline;
+    /* max-width:10px;
+    margin: 0 auto; */
+   
+
+}
+
+.body_grid_container{
+    display: grid;
+    border-top: 2px solid black; /* Add 'solid' and specify border width */
+    border-bottom: 2px solid black; /* Add 'solid' and specify border width */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.body_grid_container .first_book .title {
+    display: grid;
+    font-size: 20px;
+    color: #AF1B3F;
+    font-weight: bold;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-top: 2px solid black; /* Add 'solid' and specify border width */
+    border-bottom: 2px solid black; /* Add 'solid' and specify border width */
+  }
+
+  .body_grid_container .sec_book .title {
+    font-size: 20px;
+    color: #AF1B3F;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-top: 2px solid black; /* Add 'solid' and specify border width */
+    border-bottom: 2px solid black; /* Add 'solid' and specify border width */
+  }
+    
+
+
+
+p {
+    
+    color: #473144;
+   
+  }
+
+
+.filter{
+    display: grid;
+        width: 200px;
+        height: 800px;
+        border: 2px solid #EFC69B;
+        padding: 20px;
+      }
+
+
+.filter p
+{
+    
+    color:black;
+}
+
+
