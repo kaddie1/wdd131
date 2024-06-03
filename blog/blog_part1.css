@@ -14,10 +14,6 @@ body{
 
 }
 
-/* is the date size increased enough? */
-.date{
-  font-size: 17px;
-}
 h1{
    font-family:  Lora, Impact, serif;
    color: #473144;
@@ -68,140 +64,89 @@ h1{
 
 .body_grid_container {
   display: grid;
-  grid-template-columns:  1fr 2fr; 
+  grid-template-columns: 200px 1fr 1fr; /* Divides the container into two equal columns */
   padding-top: 15px;
   padding-bottom: 15px;
-  grid-column:  1/2;
-  grid-row:  1/2; 
-  
-} 
+}
 
 .book-desc {
-  
-  /* grid-column: 1 / 2;  */
-  padding-right: 10px;
-  text-align: right;   
-  border-right: 1px solid  #EFC69B; 
-  margin-bottom: 10px;
+  /* Assuming .book-desc should be in the first column */
+  grid-column: 1 / 2; /* Starts at the first line and ends before the second line */
+  padding: 10px;
  
-} 
+}
 
-main{
-  display:grid;
-  grid-template-columns: 3fr 1fr;
+.first_book {
+  /* Assuming .first_book should be in the second column */
+  grid-column: 2 / 3; /* Starts at the second line and ends before the third line */
+  
+  
+}
 
-
-
+.first_book img,
+.sec_book img {
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Center the image horizontally */
 }
 
 
-
-
-/* .book-desc {
-  
-  grid-column: 1 / 2; 
-  padding-right: 10px;
-  text-align: right;   
-  border-right: 1px solid  #EFC69B; 
-  margin-bottom: 10px;
- 
-} */
-
-/* .first_book {
-  
-  grid-column: 2 / 3; 
-  
-  
-} */
-
-.first_book img
- {
-  display: block; 
-  margin: 0 auto; 
-} 
-
-
-/* .book-desc_2 {
- 
-  grid-column: 1 / 2; 
-
+.book-desc_2 {
+  /* Assuming .book-desc should be in the first column */
+  grid-column: 1 / 2; /* Starts at the first line and ends before the second line */
+  padding: 10px;
   padding-top: 50px;  
-  text-align: right; 
-  border-right: 1px solid  #EFC69B; 
-
-  padding-right: 10px;
-
-} */
-
-/* .book-desc p {
-  margin-bottom: 0.5px; 
-} */
-
-/* .book-desc_2 p {
-  margin-bottom: 0.5px; 
-} */
-
-
-/* 
-.sec_book {
- 
-  grid-column: 2 / 3; 
 }
- */
+
+.sec_book {
+  /* Assuming .first_book should be in the second column */
+  grid-column: 2 / 3; /* Starts at the second line and ends before the third line */
+}
+
 
 
 
 .body_grid_container .first_book .title {
   
- 
+  display: grid;
     font-size: 20px;
     color: #AF1B3F;
     font-weight: bold;
     text-align: left;
-    margin-top: 15px;
-    padding-left: 10px;
-    font-size: 25px;
     
-  
-  } 
+    
+  }
 
 
 
-  /* .body_grid_container .sec_book .title {
-   
-    font-size: 25px;
+  .body_grid_container .sec_book .title {
+    display: grid;
+    font-size: 20px;
     color: #AF1B3F;
     font-weight: bold;
     text-align: left;
     padding-top: 50px;  
-    margin-top: 15px;
-    padding-left: 10px;
-  } */
+    
+  }
 
-.red{
-  color: #AF1B3F;
-
-}
 
 p {
     
     color: #473144;
-    padding-left: 10px;
-    font-size: 13px;
    
   }
 
   .filter {
-   
-    grid-column:  2/3; 
+    /* Assuming .first_book should be in the second column */
+    grid-column: 3 / 4; /* Starts at the second line and ends before the third line */
   }
   
 .filter{
-    
-        margin-left: 10px; 
-        border:#EFC69B 1px solid;
-        margin-top: 13px;
-        margin-right: 20px;
+    /* display: grid; */
+        /* width: 250px;
+        height: 400px;
+        border: 2px solid #EFC69B; */
+        /* padding: 50px; */
+        margin-left: 100px; 
       }
 
 

@@ -23,23 +23,10 @@ const articles = [
 		ages: '12-16',
 		genre: 'Fantasy',
 		stars: '⭐⭐⭐⭐'
-	},
+	}
+]
 
-	{
-		id: 3,
-		title: "Belgariad Book One: Pawn of Prophecy",
-		date: "Feb 12, 2022",
-		description:
-		'A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms. Young Garion, with his "Aunt Pol" and an elderly man calling himself Wolf --a father and daughter granted near-immortality by one of the Gods -- set out on a complex mission.',
-		imgSrc:
-		"https://images-na.ssl-images-amazon.com/images/I/41ZxXA+nInL.jpg",
-		imgAlt: "Book cover for Pawn of Prophecy",
-		ages: "12-16",
-		genre: "Fantasy",
-		stars: "⭐⭐⭐⭐⭐"
-}
 
-];
 
 articles.forEach((article)=>{
     // Create a Article element and store it in a variable
@@ -49,21 +36,22 @@ articles.forEach((article)=>{
 
 
 	let bookdesc_info = `
-	<p class = "date">${article.date}</p>
+	<p class = "date">July 5, 2022</p>
 	
 	<p class = "info"></p>
-	<p>${article.ages}</p>
-	<p>${article.genre}</p>
-	<p>${article.stars}</p>`
+	<p>10-14</p>
+	<p>Fantasy</p>
+	<p>****</p>`
 
 	let article_info = ` <div class = 'first_book' id="first_book">
 	<p class = "title"> ${article.title}</p>
-	<img src="${article.imgSrc}">
+	<img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Magkycover2.jpg" alt="Image of the book Magyk">
 
-	<p>${article.description} <span class = "red"> Read More...  </span>
+	<p>If you enjoy stories about seventh sons of seventh sons and magyk this is the book for you.
+		<a href="#">Read More...</a>  
 
 	</p>
-	</div> `
+</div> `
 
 
 bookArticle.innerHTML = article_info
@@ -71,26 +59,8 @@ bookdesc.innerHTML = bookdesc_info
 
 
 	let bookHolder = document.getElementById("books")
-	bookHolder.appendChild(bookdesc)
     bookHolder.appendChild(bookArticle)
-	
+	bookHolder.appendChild(bookdesc)
  
  
   })
-
-
-//   let bookfilter = document.createElement('div')
-//   bookfilter.classList.add("book-filter")
-
-
-//   let book_filter_info = `<div class = "filter">
-
-//                 <p>Filter form will go here</p>
-        
-//                 </div>`
-
-
-// 				let bookHolder = document.getElementById("books")
-// 				bookHolder.appendChild(bookfilter)
-			
-			 
