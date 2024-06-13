@@ -1,0 +1,178 @@
+/* 
+
+
+input[type="text"], input[type="cardnumber"], textarea {
+    width: 500px; 
+    height: 15px; 
+    padding: 5px; 
+} 
+
+
+input[type="text"], input[type="cardholder"], textarea {
+    width: 250px; 
+    height: 15px; 
+    padding: 5px; 
+} 
+
+
+input[type="text"], input[type="month"], textarea {
+    width: 40px; 
+    height: 15px; 
+    padding: 5px; 
+} 
+
+
+input[type="text"], input[type="year"], textarea {
+    width: 40px; 
+    height: 15px; 
+    padding: 5px; 
+}  */
+
+
+
+
+.card-image{
+    /* float: right; */
+    grid-column: 2/3;  /*places it in grid*/
+    grid-row: 1/2; 
+    justify-self: right;
+}
+
+
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 20px 3fr 25px 50px; /*can use px like 200px*/
+    border: solid 0px green;
+    gap:30px;
+    width: 650px;
+    
+}
+
+.front{
+    border: solid 0px red;
+    /*main front grid*/
+    grid-column: 1/3;
+    grid-row: 1/3;
+
+    /*grid with the front*/
+    display: grid;
+    grid-template-columns: 2fr 1fr;  /* break it up into columns*/
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap:25px;
+    background-color:grey;
+    padding:15px;
+    border-radius: 15px;
+     z-index: 2; 
+}
+
+.total{
+
+    grid-column: 1/2;  /*places it in grid*/
+    grid-row: 1/2; 
+}
+
+.back{
+    border: solid 0px blue;
+    display: grid;
+    /*main front grid*/
+    grid-column: 2/4;
+    grid-row: 2/4;
+
+    /*grid with the front*/
+    display: grid;
+    grid-template-columns: 2fr 1fr;  /* break it up into columns*/
+    grid-template-rows: 1fr 1fr; 
+    /* z-index: -1; */
+    /* background-color:grey; */
+     background-color:rgb(97, 97, 97); 
+     /* background-color:rgb(92, 91, 91);  */
+    /* border-top: 20px solid black; */
+    border-radius: 15px;
+    padding: 2px;
+
+
+}
+
+.empty{
+    /* background-color: grey;
+    height: 50px; */
+    width: 100%; 
+height: 60px; 
+background-color:black; 
+/* border: 2px solid white;   */
+grid-column: 1/3;  /*places it in grid*/
+grid-row: 1/3;
+margin-top: 15px;
+}
+
+
+
+/* width: 200px; 
+height: 100px; 
+background-color: #f0f0f0; 
+border: 2px solid #000;  */
+
+.margin{
+
+    margin:0%;
+}
+
+.cardnumber{
+
+    grid-column: 1/3;  /*places it in grid*/
+    grid-row: 2/3;
+    
+}
+
+
+.cardholder{
+
+    grid-column: 1/2;  /*places it in grid*/
+    grid-row: 3/4;
+}
+
+
+.expiration{
+
+    grid-column: 2/3;  /*places it in grid*/
+    grid-row: 3/4;
+    width:100%;
+}
+
+.submit{
+
+    grid-column: 3/4;  /*places it in grid*/
+    grid-row: 4/5;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+input{
+
+    width:100%;
+
+}
+
+.small{
+    width:40%;
+}
+
+.cvc{
+
+    grid-column: 2/3;  /*places it in grid*/
+    grid-row: 2/3;
+    /* z-index: 10; */
+
+
+}
+
+input[type="text"], input[type="cvc"], textarea {
+    width: 65px; 
+    height: 15px; 
+    /* padding: 5px;  */
+} 
+
+
