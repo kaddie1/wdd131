@@ -1,0 +1,223 @@
+body{
+
+    background-color: black;
+    /* font-family: Helvetica, Arial, sans-serif;
+} */
+}
+
+
+.header {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    font-family: Open Sans;
+}
+
+.logo{
+    width:100px;
+    padding: 1px;
+}
+
+.nav{
+    background-color: #FFE900;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+    padding: 5px; /* Add padding to create space around elements */
+}
+
+.nav_section{
+
+    font-size: 20px;
+    margin-left: 40px; /* Pushes navigation links to the right */
+
+}
+
+.nav_section a {
+    color: #000; /* Adjust link color */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 20px; /* Adjust spacing between navigation links */
+    font-size: 20px; /* Adjust font size */
+}
+
+.nav_section a:hover {
+    color: green; /* Change link color on hover */
+}
+
+h1{
+    color:green;  
+    font-family: Open Sans;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    /* color:#36881B; */
+    color:green;
+    font-family: Open Sans;
+    }
+    
+.flag{
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.patties{
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+p{
+
+    font-family:  Times;
+    color:#FFFFFF;
+    padding:10px;
+}
+
+.orderform_layout{
+
+  /* border:1px solid blue;  */
+    width:600px;
+    margin:0 auto;
+    text-align: center;
+    color:#FFE900;
+    margin-bottom: 10px;
+    
+    
+
+}
+.orderform{
+
+border:4px solid green;
+
+display: block;
+display:grid;
+grid-template-columns: 300px 300px;
+width:600px;
+padding-left: 5px;
+padding-bottom:5px;
+margin-bottom: 10px;
+
+
+}
+
+select{
+    /* padding-top: 10px; */
+    margin-left: 10px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+
+.bottom{
+    background-color: #FFE900; 
+}
+
+.copy{
+    color:green;;
+    text-align: center;
+
+}
+
+
+.menu_layout{
+
+display:grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+
+grid-template-rows: 1fr 1fr 1fr;
+
+border-color: 1px solid white;
+
+}
+
+.menu_layout img{
+
+    width:200px;
+    height: 150px;
+    /*image*/
+
+} 
+
+
+.image_format{
+
+/* width: 200px; */
+height: 150px;
+padding: 10px;
+/*div box*/
+
+
+
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 150px; /* Adjust height as needed */
+    border: 1px solid yellow; /* Just for visualization */
+  
+
+}
+
+
+
+.menu{
+    color:#FFE900;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.flava{
+    font-size: 35px;
+    text-align: center;
+    color:#FFE900;
+}
+
+.variety{
+
+    color:green;
+    /* align-content: center; */
+    font-size: 45px;
+    text-align: center;
+}
+
+.jamaica{
+
+    color:#FFE900;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+
+.display_name{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+
+}
+
+
+.display_about{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.display_price{
+    text-align: center;
+    font-weight: bold;
+    color:yellow;
+    
+}
+
+.success-message{
+    text-align: center;
+    border: 1px solid green;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}

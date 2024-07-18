@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset attribute="UTF-8">
+    <meta Description Element: Creating Credit Card Form>
+    <meta author element: Kadeen Nelson>
+    <title>Jamdown Restaurant</title>
+    <meta Link reference to your CSS file>
+    <script src="./main.js" defer type ="module"></script>  
+    <link rel="stylesheet" href="restaurant.css" /> 
+    <!-- <link rel="icon" type="image/x-icon" href="./favicon.ico">  -->
+    
+</head>
+
+<header>
+
+
+    <div class="nav" id="nav">
+       <img src="images/jamdown_logo.png" class ="logo" alt="Jamdown restaurant logo">
+       <div class = "nav_section">
+       <a href="index.html">Home</a> 
+       <a href="ordernow.html">Order Now</a> 
+      
+       </div>
+   </div> 
+   
+</header>
+
+
+<body>
+    
+
+
+<main>
+    <br> 
+
+
+
+<p class = "variety">We offer a variety of dishes:</p>
+
+
+<p class = "menu">
+    JAMDOWN RESTAURANT MENU
+</p>
+
+<div class = "menu_layout" id="menu_layout">
+
+
+</div>
+
+
+<p class ="flava">The food flava tun up till it buk!!!</p>
+
+<p class = "jamaica">Place your order to get a taste of Jamaica!!!</p>
+
+<h2>ORDER NOW</h2>
+    <form class = "orderform_layout" id = "orderform_layout" action="/submit-form" method="post">
+        
+        <div class = orderform>
+
+              
+        <label class = "name" for="Name">Name:
+            <input type="name" id="name" name="name"  placeholder ="John Johnson" required>
+        </label> 
+       
+
+        <label class = "address" for="address">Address:
+            <input type="address" id="address" name="address"  placeholder ="3rd S W, Rexburg, ID" required>
+        </label> 
+
+
+      
+        <label class = "Carbohydrate" for="Carbohydrate">Carbohydrate:
+            <select id = "Carbohydrate" name = "Carbohydrate">
+            <option value ="White Rice"> White Rice</option>
+            <option value ="Rice and Peas"> Rice & Peas</option>
+            <option value ="Dumpling"> Dumplings</option>
+        </select>
+        </label> 
+
+        <label class = "Carbohydrate_quantity" for="Carbohydrate_quantity">Quantity:
+            <input type="Carbohydrate_quantity" id="Carbohydrate_quantity" name="Carbohydrate_quantity">
+        </label> 
+<!-- 
+        <label class = "Protein" for="Protein">Protein:
+            <input type="Protein" id="Protein" name="Protein">
+        </label>  -->
+
+
+        
+        <label class = "Protein" for="Protein">Protein:
+            <select id = "Protein" name = "Protein">
+            <option value ="Jerk Chicken"> Jerk Chicken</option>
+            <option value ="Ackee and Salt Fish"> Ackee & Salt Fish</option>
+            <option value ="Curried Chicken"> Curry Chicken</option>
+        </select>
+        </label> 
+
+
+        <label class = "Protein_quantity" for="Protein_quantity">Quantity:
+            <input type="Protein_quantity" id="Protein_quantity" name="Protein_quantity">
+        </label> 
+
+        <!-- <label class = "Beverage" for="Beverage">Beverage:
+            <input type="Beverage" id="Beverage" name="Beverage">
+        </label>  -->
+
+
+         
+        <label class = "Beverage" for="Beverage">Beverage:
+            <select id = "Beverage" name = "Beverage">
+            <option value ="Ting"> Ting</option>
+            <option value ="Kola Champagne"> Kola Champagne</option>
+            <option value ="Ginger Beer"> Ginger Beer</option>
+        </select>
+        </label> 
+
+        <label class = "Beverage_quantity" for="Beverage_quantity">Quantity:
+            <input type="Beverage_quantity" id="Beverage_quantity" name="Beverage_quantity">
+        </label> 
+
+        <!-- <label class = "subtotal" for="subtotal">Subtotal:
+            <input type="subtotal" id="subtotal" name="subtotal">
+        </label> 
+
+        <label class = "totalcost" for="totalcost">Total Cost:
+            <input type="totalcost" id="totalcost" name="totalcost">
+        </label>  -->
+
+        <label class = "cardnumber" for="cardnumber">Cardnumber:
+            <input type="cardnumber" id="cardnumber" name="cardnumber"  placeholder ="1234 5678 9101 1020" required>
+        </label> 
+
+
+        <label class = "cardholder" for="cardholder">Cardholder
+            <input type="cardholder" id="cardholder" name="cardholder" placeholder ="John Doe" required>  
+        </label> 
+        
+        
+        
+      </div>
+        <input class="submit" type="submit" placeholder="Submit">
+    </form>
+
+    <div class = "summary"  id ="summary">
+        
+    </div>
+    
+</main>
+
+
+<footer>
+    <div class = "bottom">
+    <p class="copy"> &copy;Jamdown Restaurant 2024</p>
+</div>
+    
+   
+</footer> 
+</body>
+
+</html>
