@@ -1,3 +1,4 @@
+// The TA and ChatGPT assisted me with this final project 
 import food_items from './restaurant.mjs';
 
 food_items.forEach((food_items)=>{

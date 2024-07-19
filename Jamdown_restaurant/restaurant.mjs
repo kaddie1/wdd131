@@ -1,3 +1,4 @@
+// The TA and ChatGPT assisted me with this final project 
 
 const food_items = [
 	{
