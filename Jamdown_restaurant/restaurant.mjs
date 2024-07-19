@@ -9,7 +9,7 @@ About: [
     'Rice and kidney beans cooked with seasons and coconut milk',
 ],
 price: 8
-// rating: 4
+
 },
 
 {
@@ -20,7 +20,7 @@ About: [
     'White rice cooked to perfection',
 ],
 price: 8
-// rating: 4
+
 },
 
 {
