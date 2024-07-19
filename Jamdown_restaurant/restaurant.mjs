@@ -4,7 +4,7 @@ const food_items = [
 
 name: 'Rice and Peas',
 // image: "/Jamdown_restaurant/images/rice_peas.jpg",
-image: "./images/rice_peas.jpg",
+image: "/images/rice_peas.jpg",
 About: [
     'Rice and kidney beans cooked with seasons and coconut milk',
 ],
@@ -15,7 +15,7 @@ price: 8
 {
 name: 'White Rice',
 // image: "/Jamdown_restaurant/images/whiterice.jpg",
-image: "./images/whiterice.jpg",
+image: "/images/whiterice.jpg",
 About: [
     'White rice cooked to perfection',
 ],
@@ -26,7 +26,7 @@ price: 8
 {
 name: 'Dumpling',
 // image: "/Jamdown_restaurant/images/dumplings.jpg",
-image: "./images/dumplings.jpg",
+image: "/images/dumplings.jpg",
 About: [
     'Cornmeal Cooked Dumplings',
 ],
