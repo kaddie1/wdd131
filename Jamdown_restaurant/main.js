@@ -55,7 +55,7 @@ food_items.forEach((food_items)=>{
         const selectedProtein_q = formData.get('Protein_quantity');
         const selectedCarbohydrate_q = formData.get('Carbohydrate_quantity');
 
-        let subtotal
+        let subtotal =0
 
         
         food_items.forEach((food_items)=>{
@@ -65,23 +65,23 @@ food_items.forEach((food_items)=>{
 
             {
 
-                subtotal =subtotal + (food_items.price * selectedCarbohydrate_q)
+                subtotal =subtotal + (parseInt(food_items.price) * parseInt(selectedCarbohydrate_q))
             } //end of if
 
             else if (food_items.name == selectedProtein) {
-                subtotal =subtotal + (food_items.price * selectedProtein_q)
+                subtotal =subtotal + (parseInt(food_items.price) * parseInt(selectedProtein_q))
 
             }
 
             else if (food_items.name == selectedBeverage) {
 
-                subtotal =subtotal + (food_items.price * selectedBeverage_q)
+                subtotal =subtotal + (parseInt(food_items.price) * parseInt(selectedBeverage_q))
             }
 
         })
 
-        let total 
-        let tax
+        let total = 0
+        let tax = 0
 
         tax= subtotal * 0.06
         total = subtotal + tax
@@ -109,7 +109,7 @@ food_items.forEach((food_items)=>{
         return `<div class="success-message">
                   <p>Your Order was Successful!</p>
                   <p>Subtotal: $${info.subtotal}</p>
-                  <p>Tax: $${info.tax}</p>
+                  <p>Tax: $${info.tax.toFixed(2)}</p>
                   <p>Total Fee: $${info.total}</p>
                   <p>Thank you for choosing Jamdown Restaurant!</p>
                 </div>`;   
