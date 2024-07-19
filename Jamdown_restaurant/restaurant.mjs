@@ -96,5 +96,4 @@ price: 5
 ]
 
 
-
 export default food_items
