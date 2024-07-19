@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset attribute="UTF-8">
-    <meta Description Element: Creating Credit Card Form>
-    <meta author element: Kadeen Nelson>
-    <title>Jamdown Restaurant</title>
-    <meta Link reference to your CSS file>
-    <script src="./main.js" defer type ="module"></script>  
-    <link rel="stylesheet" href="restaurant.css" /> 
+    <meta charset ="UTF-8">
+    <meta name="description" content = "Restaurant Menu Order Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="author" content = "Kadeen Nelson">
+    <meta property="og:title" content="Restaurant">
+    <meta property="og:type" content="website" >
+    <meta property="og:description" content="Page Description">
+    <title>Jamdown Restaurant Order Now</title>
+    
+    <link rel="stylesheet" href="restaurant.css" > 
     <!-- <link rel="icon" type="image/x-icon" href="./favicon.ico">  -->
     
+
 </head>
 
 <header>
@@ -22,7 +26,7 @@
        <a href="ordernow.html">Order Now</a> 
       
        </div>
-   </div> 
+ </div>  
    
 </header>
 
@@ -59,13 +63,13 @@
         <div class = orderform>
 
               
-        <label class = "name" for="Name">Name:
-            <input type="name" id="name" name="name"  placeholder ="John Johnson" required>
+        <label class = "name" for="name">Name:
+            <input type="text" id="name" name="name"  placeholder ="John Johnson" required>
         </label> 
        
 
         <label class = "address" for="address">Address:
-            <input type="address" id="address" name="address"  placeholder ="3rd S W, Rexburg, ID" required>
+            <input type="text" id="address" name="address"  placeholder ="3rd S W, Rexburg, ID" required>
         </label> 
 
 
@@ -79,13 +83,12 @@
         </label> 
 
         <label class = "Carbohydrate_quantity" for="Carbohydrate_quantity">Quantity:
-            <input type="Carbohydrate_quantity" id="Carbohydrate_quantity" name="Carbohydrate_quantity">
+            <input type="text" id="Carbohydrate_quantity" name="Carbohydrate_quantity">
         </label> 
 <!-- 
         <label class = "Protein" for="Protein">Protein:
             <input type="Protein" id="Protein" name="Protein">
         </label>  -->
-
 
         
         <label class = "Protein" for="Protein">Protein:
@@ -98,7 +101,7 @@
 
 
         <label class = "Protein_quantity" for="Protein_quantity">Quantity:
-            <input type="Protein_quantity" id="Protein_quantity" name="Protein_quantity">
+            <input type="text" id="Protein_quantity" name="Protein_quantity">
         </label> 
 
         <!-- <label class = "Beverage" for="Beverage">Beverage:
@@ -116,7 +119,7 @@
         </label> 
 
         <label class = "Beverage_quantity" for="Beverage_quantity">Quantity:
-            <input type="Beverage_quantity" id="Beverage_quantity" name="Beverage_quantity">
+            <input type="text" id="Beverage_quantity" name="Beverage_quantity">
         </label> 
 
         <!-- <label class = "subtotal" for="subtotal">Subtotal:
@@ -128,18 +131,18 @@
         </label>  -->
 
         <label class = "cardnumber" for="cardnumber">Cardnumber:
-            <input type="cardnumber" id="cardnumber" name="cardnumber"  placeholder ="1234 5678 9101 1020" required>
+            <input type="text" id="cardnumber" name="cardnumber"  placeholder ="1234 5678 9101 1020" required>
         </label> 
 
 
         <label class = "cardholder" for="cardholder">Cardholder
-            <input type="cardholder" id="cardholder" name="cardholder" placeholder ="John Doe" required>  
+            <input type="text" id="cardholder" name="cardholder" placeholder ="John Doe" required>  
         </label> 
         
         
         
       </div>
-        <input class="submit" type="submit" placeholder="Submit">
+        <input class="submit" type="submit">
     </form>
 
     <div class = "summary"  id ="summary">
@@ -156,6 +159,7 @@
     
    
 </footer> 
+<script src="./main.js" type ="module"></script>  
 </body>
 
 </html>
